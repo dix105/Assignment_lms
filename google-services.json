@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "188633365404",
+    "project_id": "lmsassignment-85e04",
+    "storage_bucket": "lmsassignment-85e04.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188633365404:android:a333f37c0b6ff1488de659",
+        "android_client_info": {
+          "package_name": "com.company.lms"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjSER8zAaFkKyWJ4tFq0AZLjvfx1_gSyU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
