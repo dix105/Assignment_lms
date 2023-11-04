@@ -3,7 +3,7 @@ import React from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 const Dashboard = () => {
-  return <SafeAreaView></SafeAreaView>;
+  return <Text>hii</Text>;
 };
 
 export default Dashboard;
