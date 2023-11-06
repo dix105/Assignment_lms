@@ -1,3 +1,4 @@
+import { Alert } from "react-native";
 import { auth } from "../firebase/firebase";
 
 import { signInWithEmailAndPassword, signOut } from "firebase/auth";
@@ -14,7 +15,7 @@ const useAuth = () => {
         password
       );
     } catch (error: any) {
-      console.log(error);
+      Alert.alert(error);
     }
   };
 

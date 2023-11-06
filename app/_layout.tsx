@@ -7,8 +7,11 @@ export {
   ErrorBoundary,
 } from "expo-router";
 
+SplashScreen.preventAutoHideAsync();
+
 export default function AppLayout() {
   const rootNavigationState = useRootNavigationState();
+
   useEffect(() => {
     console.log(rootNavigationState?.key);
   }, [rootNavigationState?.key]);
